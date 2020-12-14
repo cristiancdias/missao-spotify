@@ -2,13 +2,13 @@
   include __DIR__ . "/layouts/cabecalho.php";
 ?>
 
-<div class="container-fluid fundo">
+<div class="container-fluid fundo ">
   <div class="container">
     <div class="row">
       <?php
 				include __DIR__ . "/layouts/navegacao-lateral.php";
       ?>
-      <div class="col-md-9 p-5 utilitario">
+      <div class="col-md-9 p-5 utilitario editar-perfil">
         <h1 class="fw-bolder">Editar perfil</h1>
         <form class="py-3">
           <div class="mb-3">
@@ -70,7 +70,7 @@
           <hr>
           <div class="d-flex justify-content-end">
             <a href="index.php" class="px-5 mt-2 text-decoration-none">CANCELAR</a>
-            <a href="#" class="btn btn-primary rounded-pill py-2 px-5">SALVAR PERFIL</a>
+            <a href="#" class="btn btn-primary rounded-pill py-3 px-5">SALVAR PERFIL</a>
           </div>
         </form>
 
