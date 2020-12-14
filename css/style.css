@@ -141,7 +141,10 @@
 .editar-perfil a:hover {
   color: #000;
 }
-.editar-perfil a.btn-primary {
+.editar-perfil .btn-primary {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-weight: 600;
   color: #fff;
   background-color: #1ed760;
   border: none;

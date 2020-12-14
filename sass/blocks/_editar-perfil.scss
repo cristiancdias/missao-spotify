@@ -10,10 +10,13 @@
     &:hover{
       color: #000;
     }
-    &.btn-primary{
-      color: $forte-inverse-cor;
-      background-color: $forte-cor;
-      border: none;
-    }
+  }
+  .btn-primary{
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: $forte-inverse-cor;
+    background-color: $forte-cor;
+    border: none;
   }
 }
