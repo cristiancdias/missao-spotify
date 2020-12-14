@@ -1,0 +1,46 @@
+@import "../vars/colors.scss";
+
+.rodape{
+  background-color: #000; 
+  height: 400px;
+  color: $forte-inverse-fundo;
+  h6{
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #879496;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    a{
+      text-decoration: none;
+      color: #fff;
+      margin-top: 10px;
+      font-size: 0.8rem;
+      &:hover{
+        color: $forte-cor;
+      }
+    }
+  }
+  .brasil{
+    margin-top: 100px;
+    font-size: 0.8rem;
+  }
+  .footers{
+    font-size: 0.8rem;
+    a{
+      text-decoration: none;
+      color: #879496;
+      padding-right: 20px;
+      &:hover{ 
+        color: $forte-cor;
+      }
+    }
+    .copyright{
+      position: relative;
+      left: 50px;
+    }
+  }
+}

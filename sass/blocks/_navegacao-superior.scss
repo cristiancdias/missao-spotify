@@ -1,0 +1,17 @@
+@import "../vars/colors.scss";
+
+.navegacao-superior{
+  background-color: #000;
+  align-items: center;
+  color: $forte-inverse-cor;
+  .nav-link {
+    color: $forte-inverse-cor;
+    .icone-usuario-pequeno{
+      background-color: $forte-inverse-fundo; 
+      border-radius: 50%;
+    }
+    :hover{
+      color: $forte-cor;
+    }
+  }
+}
