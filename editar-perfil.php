@@ -13,7 +13,7 @@
         <form class="py-3">
           <div class="mb-3">
             <label for="InputEmail" class="form-label fw-bolder">E-mail</label>
-            <input type="email" class="form-control p-3" id="InputEmail" aria-describedby="emailHelp">
+            <input type="email" class="form-control p-3" id="InputEmail" required>
           </div>
           <fieldset disabled>
             <div class="mb-3">
@@ -32,10 +32,10 @@
           <div class="row g-3">
             <label for="nascimento" class="form-label fw-bolder">Data de nascimento</label>
             <div class="col">
-              <input type="text" class="form-control p-3" aria-label="">
+              <input type="text" class="form-control p-3" required>
             </div>
             <div class="col">
-              <select id="mes" class="form-select p-3">
+              <select id="mes" class="form-select p-3"required>
                 <option selected>Janeiro</option>
                 <option >Fevereiro</option>
                 <option >Março</option>
@@ -51,13 +51,13 @@
               </select>
             </div>
             <div class="col">
-              <input type="text" class="form-control p-3">
+              <input type="text" class="form-control p-3" required>
             </div>
           </div>
           <div class="mb-3 py-4">
             <label for="Pais" class="form-label fw-bolder">País ou região </label>
-            <select id="Pais" class="form-select p-3">    
-              <option>Selecionar</option>    
+            <select id="Pais" class="form-select p-3" required>    
+              <option selected disabled>Selecione</option> 
               <option>Brasil</option>              
             </select>
           </div>
@@ -69,8 +69,8 @@
           </div>
           <hr>
           <div class="d-flex justify-content-end">
-            <a href="index.php" class="px-5 mt-2 text-decoration-none">CANCELAR</a>
-            <a href="#" class="btn btn-primary rounded-pill py-3 px-5">SALVAR PERFIL</a>
+            <a href="index.php" class="px-5 mt-3 text-decoration-none">CANCELAR</a>
+            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">SALVAR PERFIL</button>            
           </div>
         </form>
 
