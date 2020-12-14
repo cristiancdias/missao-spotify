@@ -1,10 +1,3 @@
-body {
-  font-family: Helvetica, Arial, sans-serif;
-}
-body .logo {
-  width: 120px;
-}
-
 .navegacao-superior {
   background-color: #000;
   align-items: center;
@@ -14,15 +7,11 @@ body .logo {
   color: #fff;
 }
 .navegacao-superior .nav-link .icone-usuario-pequeno {
-  background-color: white;
+  background-color: #fff;
   border-radius: 50%;
 }
 .navegacao-superior .nav-link :hover {
   color: #1ed760;
-}
-
-.fundo {
-  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
 }
 
 .cabecalho {
@@ -165,7 +154,7 @@ body .logo {
   margin-top: 10px;
   font-size: 0.8rem;
 }
-.rodape ul :hover {
+.rodape ul a:hover {
   color: #1ed760;
 }
 .rodape .brasil {
@@ -180,12 +169,27 @@ body .logo {
   color: #879496;
   padding-right: 20px;
 }
-.rodape .footers :hover {
+.rodape .footers a:hover {
   color: #1ed760;
 }
 .rodape .footers .copyright {
   position: relative;
   left: 50px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body .logo {
+  width: 120px;
+}
+
+.fundo {
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+}
+
+.utilitario {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
