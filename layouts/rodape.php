@@ -62,7 +62,9 @@
           <a href="#">Politica de Privacidade</a>
           <a href="#">Cookies</a>
           <a href="#">Sobre anúncios</a></div>
-          <div class="col-md-2 copyright"> &copy 2020 Spotify AB</div>
+          <div class="col-md-2 copyright"> 
+            &copy 2020 Spotify AB
+          </div>
         </div>
       </div>
     </div>

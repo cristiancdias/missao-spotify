@@ -3,7 +3,7 @@
 				<ul>
 					<li>
 						<img src="./icones/house-24px.svg" alt="home"> 
-						<a href="#">
+						<a href="index.php">
 							<strong>Visão geral da conta</strong>
 						</a>
 					</li>
