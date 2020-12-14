@@ -26,7 +26,7 @@
 			<?php
 				include __DIR__ . "/layouts/navegacao-lateral.php";
 			?>
-			<div class="col-md-9 visao-geral py-5 px-5"> <!--Visão Geral-->
+			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
 				<h1>Visão geral da conta</h1>
 				<h3>Perfil</h3>
 				<div class="row linha">
