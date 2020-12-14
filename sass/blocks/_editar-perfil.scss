@@ -1,0 +1,19 @@
+@import "../vars/colors.scss";
+
+.editar-perfil{
+  font-size: 0.8rem;
+  a{
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: #7f7f7f;
+    font-weight: 600;
+    &:hover{
+      color: #000;
+    }
+    &.btn-primary{
+      color: $forte-inverse-cor;
+      background-color: $forte-cor;
+      border: none;
+    }
+  }
+}

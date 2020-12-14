@@ -3,6 +3,7 @@
 @import "./blocks/cabecalho";
 @import "./blocks/navegacao-lateral";
 @import "./blocks/visao-geral";
+@import "./blocks/editar-perfil";
 @import "./blocks/rodape";
 
 
@@ -20,6 +21,7 @@ body{
 .utilitario{
   background-color: $forte-inverse-fundo;
 }
+
 
 
 
