@@ -10,7 +10,7 @@
       ?>
       <div class="col-md-9 p-5 utilitario editar-perfil">
         <h1 class="fw-bolder">Editar perfil</h1>
-        <form class="py-3">
+        <form class="py-3" action="loading.php" method="post">
           <div class="mb-3">
             <label for="InputEmail" class="form-label fw-bolder">E-mail</label>
             <input type="email" class="form-control p-3" id="InputEmail" required>
@@ -51,7 +51,7 @@
               </select>
             </div>
             <div class="col">
-              <input type="text" class="form-control p-3" required>
+              <input type="text" class="form-control p-3" name="validacao" required>
             </div>
           </div>
           <div class="mb-3 py-4">
@@ -70,7 +70,9 @@
           <hr>
           <div class="d-flex justify-content-end">
             <a href="index.php" class="px-5 mt-3 text-decoration-none">CANCELAR</a>
-            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">SALVAR PERFIL</button>            
+            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit"> 
+              SALVAR PERFIL
+            </button>            
           </div>
         </form>
 
