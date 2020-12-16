@@ -23,9 +23,11 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<?php
-				include __DIR__ . "/layouts/navegacao-lateral.php";
-			?>
+			<div class="col-md-3 py-3 navegacao-lateral"> <!--Navegação Lateral-->
+				<?php
+					include __DIR__ . "/layouts/navegacao-lateral.php";
+				?>
+			</div>
 			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
 				<h1>Visão geral da conta</h1>
 				<h3>Perfil</h3>
