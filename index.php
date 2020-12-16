@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<a href="#" class="btn btn-primary">
-						<strong>EDITAR PERFIL</strong>
+					<strong>EDITAR PERFIL</strong>
 				</a>
 				<h3>Seu plano</h3>
 				<h1 class="banner-roxo">
