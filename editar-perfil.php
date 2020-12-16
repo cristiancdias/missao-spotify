@@ -5,9 +5,11 @@
 <div class="container-fluid fundo ">
   <div class="container">
     <div class="row">
-      <?php
-				include __DIR__ . "/layouts/navegacao-lateral.php";
-      ?>
+      <div class="col-md-3 py-3 navegacao-lateral"> <!--Navegação Lateral-->  
+        <?php
+				  include __DIR__ . "/layouts/navegacao-lateral.php";
+        ?>
+      </div>
       <div class="col-md-9 p-5 utilitario editar-perfil">
         <h1 class="fw-bolder">Editar perfil</h1>
         <form class="py-3" action="loading.php" method="post">
