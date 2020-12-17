@@ -30,61 +30,66 @@
 			</div>
 			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
 				<h1>Visão geral da conta</h1>
-				<h3>Perfil</h3>
-				<div class="pb-3">
-					<table class="table">
-						<tbody>
-							<tr>
-								<th class="py-3">Nome do usuário</th>
-								<td class="py-3">cristiancdias</td>
-							</tr>
-							<tr>
-								<th class="py-3">E-mail</th>
-								<td class="py-3">cristiandias@gmail.com</td>
-							</tr>
-							<tr>
-								<th class="py-3">Data de nascimento</th>
-								<td class="py-3">5 de janeiro de 1983</td>
-							</tr>
-							<tr>
-								<th class="py-3">País ou região</th>
-								<td class="py-3">Brasil</td>
-							</tr>
-						</tbody>
-					</table>
+				<div>
+					<h3>Perfil</h3>
+					<div class="pb-3">
+						<table class="table">
+							<tbody>
+								<tr>
+									<th class="py-3">Nome do usuário</th>
+									<td class="py-3">cristiancdias</td>
+								</tr>
+								<tr>
+									<th class="py-3">E-mail</th>
+									<td class="py-3">cristiandias@gmail.com</td>
+								</tr>
+								<tr>
+									<th class="py-3">Data de nascimento</th>
+									<td class="py-3">5 de janeiro de 1983</td>
+								</tr>
+								<tr>
+									<th class="py-3">País ou região</th>
+									<td class="py-3">Brasil</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<a href="#" class="btn btn-primary">
+						<strong>EDITAR PERFIL</strong>
+					</a>
 				</div>
-				<a href="#" class="btn btn-primary">
-					<strong>EDITAR PERFIL</strong>
-				</a>
-				<h3>Seu plano</h3>
-				<h1 class="banner-roxo">
-					<strong>Spotify Free</strong>
-				</h1>
-						
-				<div class="bloco-free">
-					<p>Ouça música apenas em ordem aleatória e com anúncios.</p>
-					<h3>Free</h3>
+				<div>
+					<h3>Seu plano</h3>
+					<h1 class="banner-roxo">
+						<strong>Spotify Free</strong>
+					</h1>
+							
+					<div class="bloco-free">
+						<p>Ouça música apenas em ordem aleatória e com anúncios.</p>
+						<h3>Free</h3>
+					</div>
+
+					<a href="#" class="btn btn-primary">
+						<strong>SEJA PREMIUM</strong>
+					</a>
 				</div>
+				<div>
+					<h3>Saia em qualquer lugar</h3>
+					<p>
+						Saia em tudo que o Spotify estiver aberto, inclusive na Web, 
+						no celular, no desktop ou em qualquer outro dispositivo.
+					</p>
 
-				<a href="#" class="btn btn-primary">
-					<strong>SEJA PREMIUM</strong>
-				</a>
-
-				<h3>Saia em qualquer lugar</h3>
-				<p>
-					Saia em tudo que o Spotify estiver aberto, inclusive na Web, 
-					no celular, no desktop ou em qualquer outro dispositivo.
-				</p>
-
-				<p class="aviso">
-					Aviso: não será feito logout de dispositivos parceiros, 
-					como aparelhos da Sonos ou PlayStation. Para saber mais sobre 
-					como sair do Spotify (ou desvinculá-lo) em um dispositivo p
-					arceiro, confira o manual do fabricante do dispositivo.
-				</p>
-				<a href="#" class="btn btn-primary grande">
-					<strong>SAIR DE TODOS OS DISPOSITIVOS</strong>
-				</a>
+					<p class="aviso">
+						Aviso: não será feito logout de dispositivos parceiros, 
+						como aparelhos da Sonos ou PlayStation. Para saber mais sobre 
+						como sair do Spotify (ou desvinculá-lo) em um dispositivo p
+						arceiro, confira o manual do fabricante do dispositivo.
+					</p>
+					<a href="#" class="btn btn-primary grande">
+						<strong>SAIR DE TODOS OS DISPOSITIVOS</strong>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
