@@ -31,19 +31,27 @@
 			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
 				<h1>Visão geral da conta</h1>
 				<h3>Perfil</h3>
-				<div class="row linha">
-					<div class="col-md-6 informacoes">
-						<p>Nome do usúario</p>
-						<p>E-mail</p>
-						<p>Data de nascimento</p>
-						<p>País ou região</p>
-					</div>
-					<div class="col-md-6">
-						<p>cristiancdias</p>
-						<p>cristiancdias@gmail.com</p>
-						<p>5 de janeiro de 1983</p>
-						<p>Brasil</p>
-					</div>
+				<div class="pb-3">
+					<table class="table">
+						<tbody>
+							<tr>
+								<th class="py-3">Nome do usuário</th>
+								<td class="py-3">cristiancdias</td>
+							</tr>
+							<tr>
+								<th class="py-3">E-mail</th>
+								<td class="py-3">cristiandias@gmail.com</td>
+							</tr>
+							<tr>
+								<th class="py-3">Data de nascimento</th>
+								<td class="py-3">5 de janeiro de 1983</td>
+							</tr>
+							<tr>
+								<th class="py-3">País ou região</th>
+								<td class="py-3">Brasil</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 				<a href="#" class="btn btn-primary">
 					<strong>EDITAR PERFIL</strong>
