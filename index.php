@@ -17,7 +17,7 @@
 				</p>
 			</div>
 			<div class="col-md-4">
-				<img src="./imagens/balão.png" alt="balão">
+				<img class="img-fluid" src="./imagens/balão.png" alt="balão">
 			</div>
 		</div>
 	</div>
