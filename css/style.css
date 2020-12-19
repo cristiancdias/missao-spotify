@@ -83,13 +83,6 @@
   height: 50px;
   margin-top: 30px;
 }
-.visao-geral .linha p {
-  border-bottom: 1px solid #eeeeee;
-}
-.visao-geral .informacoes {
-  color: #9e9e9e;
-  height: 50px;
-}
 .visao-geral .btn-primary {
   background-color: #fff;
   color: #757575;
@@ -208,6 +201,9 @@ body .logo {
 
 .utilitario {
   background-color: #fff;
+}
+.utilitario h2 {
+  font-size: 2.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

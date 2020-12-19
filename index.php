@@ -29,7 +29,7 @@
 				?>
 			</div>
 			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
-				<h1>Visão geral da conta</h1>
+				<h2 class="fw-bolder">Visão geral da conta</h2>
 				<div>
 					<h3>Perfil</h3>
 					<div class="pb-3">
@@ -60,9 +60,9 @@
 				</div>
 				<div>
 					<h3>Seu plano</h3>
-					<h1 class="banner-roxo">
+					<h2 class="banner-roxo fw-bolder">
 						<strong>Spotify Free</strong>
-					</h1>
+					</h2>
 							
 					<div class="bloco-free">
 						<p>Ouça música apenas em ordem aleatória e com anúncios.</p>

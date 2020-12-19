@@ -11,7 +11,7 @@
         ?>
       </div>
       <div class="col-md-9 p-5 utilitario editar-perfil">
-        <h1 class="fw-bolder">Editar perfil</h1>
+        <h2 class="fw-bolder">Editar perfil</h2>
         <form class="py-3" action="loading.php" method="post">
           <div class="mb-3">
             <label for="InputEmail" class="form-label fw-bolder">E-mail</label>
