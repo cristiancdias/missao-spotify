@@ -1,0 +1,209 @@
+.navegacao-superior {
+  background-color: #000;
+  align-items: center;
+  color: #fff;
+}
+.navegacao-superior .nav-link {
+  color: #fff;
+}
+.navegacao-superior .nav-link .icone-usuario-pequeno {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.navegacao-superior .nav-link :hover {
+  color: #1ed760;
+}
+
+.cabecalho {
+  background-color: #ff4632;
+  padding: 20px;
+}
+.cabecalho h1 {
+  padding: 20 0;
+  font-weight: 1000;
+  font-size: 3rem;
+  height: 150px;
+}
+.cabecalho h3 {
+  height: 100px;
+  padding: 50 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cabecalho .btn-primary {
+  border-radius: 30px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-weight: 600;
+  line-height: 30px;
+  width: 300px;
+}
+.cabecalho p {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  height: 50px;
+}
+.cabecalho p a {
+  color: #000;
+}
+
+.navegacao-lateral {
+  background-color: #1b1b1b;
+}
+.navegacao-lateral .foto {
+  width: 90px;
+  margin-left: 80px;
+}
+.navegacao-lateral ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navegacao-lateral ul li {
+  padding: 10px;
+  border-bottom: 1px solid #161616;
+  border-top: 1px solid #272727;
+}
+.navegacao-lateral ul li a {
+  text-decoration: none;
+  color: #919482;
+  padding: 10px;
+}
+
+.visao-geral h1 {
+  font-weight: 1000;
+  height: 80px;
+}
+.visao-geral h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  height: 50px;
+  margin-top: 30px;
+}
+.visao-geral .btn-primary {
+  background-color: #fff;
+  color: #757575;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  border-radius: 30px;
+  border: 2px solid #757575;
+  align-items: center;
+  line-height: 30px;
+  width: 200px;
+}
+.visao-geral .banner-roxo {
+  height: 230px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0) linear-gradient(-180deg, #b62bbe 0%, #9622b9 100%) repeat scroll 0% 0%;
+  color: #fff;
+}
+.visao-geral .bloco-free {
+  height: 150px;
+  border: 1px solid #eeeeee;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.visao-geral .bloco-free p {
+  border-bottom: 1px solid #eeeeee;
+  height: 50px;
+  padding-top: 20px;
+}
+.visao-geral .aviso {
+  border: 1px solid #d9dadc;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.visao-geral .grande {
+  width: 350px;
+}
+
+.editar-perfil {
+  font-size: 0.8rem;
+}
+.editar-perfil a {
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  color: #7f7f7f;
+  font-weight: 600;
+}
+.editar-perfil a:hover {
+  color: #000;
+}
+.editar-perfil .btn-primary {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #1ed760;
+  border: none;
+}
+
+.rodape {
+  background-color: #000;
+  height: 400px;
+  color: #fff;
+}
+.rodape h6 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #879496;
+}
+.rodape ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.rodape ul a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 0.8rem;
+}
+.rodape ul a:hover {
+  color: #1ed760;
+}
+.rodape .brasil {
+  margin-top: 100px;
+  font-size: 0.8rem;
+}
+.rodape .footers {
+  font-size: 0.8rem;
+}
+.rodape .footers a {
+  text-decoration: none;
+  color: #879496;
+  padding-right: 20px;
+}
+.rodape .footers a:hover {
+  color: #1ed760;
+}
+.rodape .footers .copyright {
+  position: relative;
+  left: 50px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body .logo {
+  width: 120px;
+}
+
+.fundo {
+  background-image: linear-gradient(#212c39, #121e3d 50%, #000);
+}
+
+.utilitario {
+  background-color: #fff;
+}
+.utilitario h2 {
+  font-size: 2.6rem;
+}
+
+/*# sourceMappingURL=style.css.map */
