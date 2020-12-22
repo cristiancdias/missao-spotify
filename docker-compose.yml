@@ -1,0 +1,22 @@
+version: "3"
+services:
+  apache:
+    build:
+      context: ./dockerfiles/apache
+    volumes:
+      - "./:/var/www/htdocs"
+      - "./dockerfiles/apache/confs:/usr/local/apache2/conf/custom.conf.d"
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+  php:
+    build:
+      context: ./dockerfiles/php
+    volumes:
+      - "./:/var/www/htdocs"
+    ports:
+      - "9000:9000"
+networks:
+  default:
+    driver: bridge
