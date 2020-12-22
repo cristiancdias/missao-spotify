@@ -3,13 +3,13 @@
 <ul>
 	<li>
 		<img src="./icones/house-24px.svg" alt="home"> 
-		<a href="index.php">
+		<a href="home.php">
 			<strong>Visão geral da conta</strong>
 		</a>
 	</li>
 	<li>
 		<img src="./icones/create-24px.svg" alt="editar">
-		<a href="editar-perfil.php">
+		<a href="perfil.php">
 			Editar perfil
 		</a>
 	</li>
