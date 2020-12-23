@@ -3,7 +3,7 @@
 ?>
 
 <div class="container-fluid fundo">
-	<div class="container py-5 cabecalho"> <!--Cabeçalho-->
+	<div class="container py-5 heading"> <!--Cabeçalho-->
 		<div class="row">
 			<div class="col-md-8">
 				<h1><strong>Curta 3 meses de</br> Premium grátis</strong></h1>
