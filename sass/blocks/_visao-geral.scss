@@ -14,13 +14,7 @@
   .btn-primary{
     background-color: $forte-inverse-fundo;
     color: #757575;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    border-radius: 30px;
-    border: 2px solid #757575;
-    align-items: center;
-    line-height: 30px;
-    width: 200px;
+    border: 2px solid #757575;  
   }
   .banner-roxo{
     height: 230px;
@@ -45,8 +39,5 @@
     border: 1px solid #d9dadc;
     background-color: #f8f8f8;
     padding: 20px;
-  }
-  .grande{
-    width: 350px;
   }
 }
