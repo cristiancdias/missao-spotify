@@ -6,7 +6,6 @@
 	<div class="container py-5 heading">
     <div class="row">
       <div class="col-md-6">
-        <h4>SPOTIFY PREMIUM</h4>
         <h1 class="pt-3">Tá acabando: 3 meses de Premium grátis</h1>
         <h6 class="mt-5 pt-5">Oferta acaba em 5 dias.</h6>
         <h6 class="pb-4">
