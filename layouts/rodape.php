@@ -52,8 +52,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-11"></div>
-          <div class="col-md-1 brasil">Brasil <img src="./imagens/Brasil.png" alt="Brasil"></div>
+          <div class="col-md-1 offset-md-11 brasil">Brasil <img src="./imagens/Brasil.png" alt="Brasil"></div>
         </div>
         <div class="row footers">
           <div class="col-md-10">
