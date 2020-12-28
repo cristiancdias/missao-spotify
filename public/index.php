@@ -1,5 +1,5 @@
 <?php
-  include __DIR__ . "/../layouts/cabecalho.php";
+  include __DIR__ . "/../layouts/cabecalho-offline.php";
 ?>
 
 <div class="container-fluid heading">

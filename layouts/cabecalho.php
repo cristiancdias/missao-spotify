@@ -11,7 +11,7 @@
     <div class="container-fluid py-3 navegacao-superior"><!-- Navegação Superior-->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.php">
             <img src="./imagens/spotify-logo-branca-white.png" alt="logo" class="logo">
           </a>
           <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown">
@@ -44,7 +44,7 @@
                     </a>
                  </li>
                   <li>
-                    <a class="dropdown-item sair" href="#">
+                    <a class="dropdown-item sair" href="index.php">
                       <strong>Sair</strong>
                     </a>
                   </li>
