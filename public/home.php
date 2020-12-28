@@ -3,24 +3,29 @@
 ?>
 
 <div class="container-fluid fundo">
-	<div class="container py-5 heading"> <!--Cabeçalho-->
-		<div class="row">
-			<div class="col-md-8">
-				<h1><strong>Curta 3 meses de</br> Premium grátis</strong></h1>
-				<h3>Curta músicas sem anúncios, no modo</br> offline e muito mais. Cancele quando quiser.</h3>
-				<a href="#" class="btn btn-primary">GANHE 3 MESES GRÁTIS</a>
-				<p>
-					Somente para o plano Individual. Depois, apenas R$ 16,90/mês. 
-					Oferta indisponível para usuários que já </br>experimentaram o Premium. 
-					<a href="#" alt="link">Sujeita a Termos e Condições</a>. 
-					A oferta termina em 31 de dez de 2020.
-				</p>
-			</div>
-			<div class="col-md-4">
-				<img class="img-fluid" src="./imagens/balao.png" alt="balao">
-			</div>
-		</div>
-	</div>
+	<div class="container py-5 heading">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>SPOTIFY PREMIUM</h4>
+        <h1 class="pt-3">Tá acabando: 3 meses de Premium grátis</h1>
+        <h6 class="mt-5 pt-5">Oferta acaba em 5 dias.</h6>
+        <h6 class="pb-4">
+          Não perca a chance de ouvir sua música sem anúncios, no modo offline e 
+          muito mais. Cancele quando quiser.
+        </h6>
+        <a href="#" class="btn btn-primary">GANHE 3 MESES GRÁTIS</a>
+        <p>
+          Somente para o plano Individual. Depois, apenas R$ 16,90/mês. 
+          Oferta indisponível para usuários que já experimentaram o Premium. 
+          <a href="#" alt="link">Sujeita a Termos e Condições</a>. 
+          A oferta termina em 31 de dez de 2020.
+        </p>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <img class="img-fluid" src="./imagens/disco.png" alt="disco">
+      </div>
+    </div>
+  </div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 py-3 navegacao-lateral"> <!--Navegação Lateral-->
