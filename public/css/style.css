@@ -14,40 +14,44 @@
   color: #1ed760;
 }
 
-.heading {
-  background-color: #ff4632;
-  padding: 20px;
+.heading, .inverter {
+  background-color: #a5ffef;
+  color: #cb1582;
 }
-.heading h1 {
-  padding: 20 0;
-  font-weight: 1000;
-  font-size: 3rem;
+.heading h1, .inverter h1 {
+  font-weight: 600;
+  font-size: 3.7rem;
   height: 150px;
 }
-.heading h3 {
-  height: 100px;
-  padding: 50 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.heading .btn-primary {
-  border-radius: 30px;
+.heading h4, .inverter h4 {
   font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: #fff;
-  background-color: #000;
-  border: none;
   font-weight: 600;
-  line-height: 30px;
-  width: 300px;
+  letter-spacing: 1px;
 }
-.heading p {
+.heading h6, .inverter h6 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.heading p, .inverter p {
   margin-top: 30px;
   font-size: 0.8rem;
   height: 50px;
 }
-.heading p a {
-  color: #000;
+.heading p a, .inverter p a {
+  color: #cb1582;
+}
+.heading.inverter, .inverter.inverter {
+  background-color: #cb1582;
+  color: #a5ffef;
+}
+.heading.inverter h2, .inverter.inverter h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.heading.banner, .inverter.banner {
+  background: url("../../imagens/fundo.png") no-repeat;
+  height: 599px;
+  color: #1ed760;
 }
 
 .navegacao-lateral {
@@ -86,13 +90,7 @@
 .visao-geral .btn-primary {
   background-color: #fff;
   color: #757575;
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  border-radius: 30px;
   border: 2px solid #757575;
-  align-items: center;
-  line-height: 30px;
-  width: 200px;
 }
 .visao-geral .banner-roxo {
   height: 230px;
@@ -117,9 +115,6 @@
   border: 1px solid #d9dadc;
   background-color: #f8f8f8;
   padding: 20px;
-}
-.visao-geral .grande {
-  width: 350px;
 }
 
 .editar-perfil {
@@ -204,6 +199,34 @@ body .logo {
 }
 .utilitario h2 {
   font-size: 2.6rem;
+}
+
+.btn-primary, .bnt-inverter, .btn-banner {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #cb1582;
+  border: none;
+  font-weight: 600;
+}
+.btn-primary:hover, .bnt-inverter:hover, .btn-banner:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn-primary.btn-inverter, .bnt-inverter.btn-inverter, .btn-banner.btn-inverter {
+  background-color: #a5ffef;
+  color: #cb1582;
+}
+.btn-primary.btn-inverter:hover, .bnt-inverter.btn-inverter:hover, .btn-banner.btn-inverter:hover {
+  background-color: #fff;
+  color: #cb1582;
+}
+.btn-primary.btn-banner, .bnt-inverter.btn-banner, .btn-banner.btn-banner {
+  background-color: #1ed760;
+  color: #2d46b9;
+}
+.btn-primary.btn-banner:hover, .bnt-inverter.btn-banner:hover, .btn-banner.btn-banner:hover {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
