@@ -72,7 +72,7 @@
           <hr>
           <div class="d-flex justify-content-end">
             <a href="index.php" class="px-5 mt-3 text-decoration-none">CANCELAR</a>
-            <button class="btn btn-primary rounded-pill py-3 px-5" type="submit"> 
+            <button class="btn btn-primary btn-submit rounded-pill py-3 px-5" type="submit"> 
               SALVAR PERFIL
             </button>            
           </div>

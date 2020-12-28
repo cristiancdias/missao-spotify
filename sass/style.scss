@@ -25,7 +25,7 @@ body{
   }
 }
 
-.btn-primary, .bnt-inverter, .btn-banner{
+.btn-primary, .bnt-inverter, .btn-banner, .btn-submit{
   font-size: 0.8rem;
   letter-spacing: 2px;
   color: $forte-inverse-cor;
@@ -45,10 +45,20 @@ body{
     } 
   }
   &.btn-banner{
-    background-color: #1ed760;
+    background-color: $forte-cor;
     color: #2d46b9;
     &:hover{
       background-color: $forte-inverse-fundo;
+    }
+  }
+  &.btn-submit{
+    background-color: $forte-cor;
+    color: $forte-inverse-cor;
+    border: 1px solid $forte-cor;
+    &:hover{
+      background-color: $forte-inverse-fundo;
+      color: #000;
+      border: 1px solid #000;
     }
   }
 }
