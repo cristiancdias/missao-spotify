@@ -12,7 +12,7 @@
           Não perca a chance de ouvir sua música sem anúncios, no modo offline e 
           muito mais. Cancele quando quiser.
         </h6>
-        <a href="#" class="btn btn-primary">GANHE 3 MESES GRÁTIS</a>
+        <a href="#" class="btn btn-primary rounded-pill px-5 py-3">GANHE 3 MESES GRÁTIS</a>
         <p>
           Somente para o plano Individual. Depois, apenas R$ 16,90/mês. 
           Oferta indisponível para usuários que já experimentaram o Premium. 
@@ -58,7 +58,7 @@
 							</tbody>
 						</table>
 					</div>
-					<a href="#" class="btn btn-primary">
+					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
 						<strong>EDITAR PERFIL</strong>
 					</a>
 				</div>
@@ -73,7 +73,7 @@
 						<h3>Free</h3>
 					</div>
 
-					<a href="#" class="btn btn-primary">
+					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
 						<strong>SEJA PREMIUM</strong>
 					</a>
 				</div>
@@ -90,7 +90,7 @@
 						como sair do Spotify (ou desvinculá-lo) em um dispositivo p
 						arceiro, confira o manual do fabricante do dispositivo.
 					</p>
-					<a href="#" class="btn btn-primary grande">
+					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
 						<strong>SAIR DE TODOS OS DISPOSITIVOS</strong>
 					</a>
 				</div>

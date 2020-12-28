@@ -13,7 +13,7 @@
           Não perca a chance de ouvir sua música sem anúncios, no modo offline e 
           muito mais. Cancele quando quiser.
         </h6>
-        <a href="#" class="btn btn-primary">GANHE 3 MESES GRÁTIS</a>
+        <a href="#" class="btn btn-primary rounded-pill px-5 py-3">GANHE 3 MESES GRÁTIS</a>
         <p>
           Somente para o plano Individual. Depois, apenas R$ 16,90/mês. 
           Oferta indisponível para usuários que já experimentaram o Premium. 
@@ -40,7 +40,7 @@
           Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver
           ao ano mais longo da história.
         </h6>
-        <a href="#" class="btn btn-primary btn-inverter">CONFIRA SUA RETROSPECTIVA</a>
+        <a href="#" class="btn btn-primary btn-inverter rounded-pill px-5 py-3">CONFIRA SUA RETROSPECTIVA</a>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@
           Milhões de músicas e podcasts para explorar. E nem precisa de cartão
           de crédito
         </h6>
-        <a href="#" class="btn btn-primary btn-banner">OBTENHA O SPOTIFY FREE</a>
+        <a href="#" class="btn btn-primary btn-banner rounded-pill px-5 py-3">OBTENHA O SPOTIFY FREE</a>
       </div>
     </div>
   </div>
