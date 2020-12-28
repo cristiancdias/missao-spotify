@@ -16,30 +16,30 @@
           </a>
           <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" aria-current="page" href="#">
                   <strong>Premium</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="#">
                   <strong>Suporte</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="#">
                   <strong>Baixar</strong>
                 </a>
               </li>
-              <li>
+              <li class="nav-item px-2">
                 <span>|</span>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="#">
                   <strong>Inscrever-se</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="home.php">
                   <strong>Entrar</strong>
                 </a>

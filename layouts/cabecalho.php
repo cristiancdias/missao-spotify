@@ -16,23 +16,23 @@
           </a>
           <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" aria-current="page" href="#">
                   <strong>Premium</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="#">
                   <strong>Suporte</strong>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item px-2">
                 <a class="nav-link" href="#">
                   <strong>Baixar</strong>
                 </a>
               </li>
                 <span>|</span>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown px-2">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
                   <img src="./icones/account_circle-24px.svg" alt="Foto" class="icone-usuario-pequeno">
                   <strong>Perfil</strong>
@@ -44,7 +44,7 @@
                     </a>
                  </li>
                   <li>
-                    <a class="dropdown-item sair" href="index.php">
+                    <a class="dropdown-item" href="index.php">
                       <strong>Sair</strong>
                     </a>
                   </li>
