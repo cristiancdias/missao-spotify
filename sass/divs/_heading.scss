@@ -1,0 +1,41 @@
+@import "../vars/colors.scss";
+
+.heading, .inverter{
+  background-color: #a5ffef;
+  color: #cb1582;
+  h1{
+    font-weight: 600;
+    font-size: 3.7rem;
+    height: 150px;
+  }
+  h4{
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  h6{
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    height: 50px;
+    a{
+     color: #cb1582; 
+    }
+  }
+  &.inverter{
+    background-color: #cb1582;
+    color: #a5ffef;
+    h2{
+      font-size: 4rem;
+      font-weight: 800;
+    }
+  }
+  &.banner{
+    background: url("../../imagens/fundo.png") no-repeat;
+    height: 599px;
+    color: #1ed760;
+  }
+}
