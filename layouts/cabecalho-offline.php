@@ -12,7 +12,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.php">
-            <img src="./imagens/spotify-logo-branca-white.png" alt="logo" class="logo">
+            <img src="./imagens/spotify-logo.png" alt="logo">
           </a>
           <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavDropdown">
             <ul class="navbar-nav">
