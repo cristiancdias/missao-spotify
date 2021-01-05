@@ -10,7 +10,7 @@
 				  include __DIR__ . "/../layouts/navegacao-lateral.php";
         ?>
       </div>
-      <div class="col-md-9 p-5 titulo-perfil editar-perfil">
+      <div class="col-md-9 p-5 titulo-perfil anchor small">
         <h2 class="fw-bolder">Editar perfil</h2>
         <form class="py-3" action="loading.php" method="post">
           <div class="mb-3">

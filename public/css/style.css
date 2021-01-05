@@ -1,3 +1,13 @@
+.anchor a {
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  color: #7f7f7f;
+  font-weight: 600;
+}
+.anchor a:hover {
+  color: #000;
+}
+
 .btn-primary, .btn-inverter, .btn-banner, .btn-submit, .btn-destaque {
   font-size: 0.8rem;
   letter-spacing: 2px;
@@ -43,19 +53,6 @@
 .btn-primary.btn-destaque:hover, .btn-inverter.btn-destaque:hover, .btn-banner.btn-destaque:hover, .btn-submit.btn-destaque:hover, .btn-destaque.btn-destaque:hover {
   color: #000;
   border: 2px solid #000;
-}
-
-.editar-perfil {
-  font-size: 0.8rem;
-}
-.editar-perfil a {
-  letter-spacing: 2px;
-  font-size: 0.8rem;
-  color: #7f7f7f;
-  font-weight: 600;
-}
-.editar-perfil a:hover {
-  color: #000;
 }
 
 .navegacao-superior {
