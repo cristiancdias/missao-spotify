@@ -1,10 +1,12 @@
-@import "./vars/colors";
 @import "./blocks/navegacao-superior";
-@import "./divs/heading";
 @import "./blocks/navegacao-lateral";
 @import "./blocks/visao-geral";
 @import "./blocks/editar-perfil";
-@import "./blocks/rodape";
+
+@import "./divs/rodape";
+@import "./divs/heading";
+
+@import "./vars/colors";
 
 
 body{
@@ -25,7 +27,7 @@ body{
   }
 }
 
-.btn-primary, .bnt-inverter, .btn-banner, .btn-submit{
+.btn-primary, .btn-inverter, .btn-banner, .btn-submit{
   font-size: 0.8rem;
   letter-spacing: 2px;
   color: $forte-inverse-cor;
