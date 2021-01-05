@@ -1,6 +1,6 @@
 @import "../vars/colors.scss";
 
-.heading, .inverter{
+.heading, .inverter, .banner{
   background-color: #a5ffef;
   color: #cb1582;
   h1{
@@ -21,9 +21,7 @@
     margin-top: 30px;
     font-size: 0.8rem;
     height: 50px;
-    a{
-     color: #cb1582; 
-    }
+   
   }
   &.inverter{
     background-color: #cb1582;
@@ -36,6 +34,6 @@
   &.banner{
     background: url("../../imagens/fundo.png") no-repeat;
     height: 599px;
-    color: #1ed760;
+    color: $forte-cor;
   }
 }

@@ -174,41 +174,38 @@
   left: 50px;
 }
 
-.heading, .inverter {
+.heading, .inverter, .banner {
   background-color: #a5ffef;
   color: #cb1582;
 }
-.heading h1, .inverter h1 {
+.heading h1, .inverter h1, .banner h1 {
   font-weight: 600;
   font-size: 3.7rem;
   height: 150px;
 }
-.heading h4, .inverter h4 {
+.heading h4, .inverter h4, .banner h4 {
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.heading h6, .inverter h6 {
+.heading h6, .inverter h6, .banner h6 {
   font-weight: 500;
   letter-spacing: 1px;
 }
-.heading p, .inverter p {
+.heading p, .inverter p, .banner p {
   margin-top: 30px;
   font-size: 0.8rem;
   height: 50px;
 }
-.heading p a, .inverter p a {
-  color: #cb1582;
-}
-.heading.inverter, .inverter.inverter {
+.heading.inverter, .inverter.inverter, .banner.inverter {
   background-color: #cb1582;
   color: #a5ffef;
 }
-.heading.inverter h2, .inverter.inverter h2 {
+.heading.inverter h2, .inverter.inverter h2, .banner.inverter h2 {
   font-size: 4rem;
   font-weight: 800;
 }
-.heading.banner, .inverter.banner {
+.heading.banner, .inverter.banner, .banner.banner {
   background: url("../../imagens/fundo.png") no-repeat;
   height: 599px;
   color: #1ed760;

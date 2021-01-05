@@ -16,7 +16,7 @@
         <p>
           Somente para o plano Individual. Depois, apenas R$ 16,90/mês. 
           Oferta indisponível para usuários que já experimentaram o Premium. 
-          <a href="#" alt="link">Sujeita a Termos e Condições</a>. 
+          <a href="#" alt="link" class="text-reset">Sujeita a Termos e Condições</a>. 
           A oferta termina em 31 de dez de 2020.
         </p>
       </div>
