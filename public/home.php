@@ -32,7 +32,7 @@
 					include __DIR__ . "/../layouts/navegacao-lateral.php";
 				?>
 			</div>
-			<div class="col-md-9 visao-geral py-5 px-5 utilitario"> <!--Visão Geral-->
+			<div class="col-md-9 visao-geral py-5 px-5 titulo-perfil"> <!--Visão Geral-->
 				<h2 class="fw-bolder">Visão geral da conta</h2>
 				<div>
 					<h3>Perfil</h3>

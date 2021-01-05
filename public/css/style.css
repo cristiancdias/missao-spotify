@@ -225,10 +225,10 @@ body {
   background-image: linear-gradient(#212c39, #121e3d 50%, #000);
 }
 
-.utilitario {
+.titulo-perfil {
   background-color: #fff;
 }
-.utilitario h2 {
+.titulo-perfil h2 {
   font-size: 2.6rem;
 }
 
