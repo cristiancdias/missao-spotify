@@ -58,7 +58,7 @@
 							</tbody>
 						</table>
 					</div>
-					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+					<a href="#" class="btn btn-primary btn-destaque rounded-pill px-5 py-3">
 						<strong>EDITAR PERFIL</strong>
 					</a>
 				</div>
@@ -73,7 +73,7 @@
 						<h3>Free</h3>
 					</div>
 
-					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+					<a href="#" class="btn btn-primary btn-destaque rounded-pill px-5 py-3">
 						<strong>SEJA PREMIUM</strong>
 					</a>
 				</div>
@@ -90,7 +90,7 @@
 						como sair do Spotify (ou desvinculá-lo) em um dispositivo p
 						arceiro, confira o manual do fabricante do dispositivo.
 					</p>
-					<a href="#" class="btn btn-primary rounded-pill px-5 py-3">
+					<a href="#" class="btn btn-primary btn-destaque rounded-pill px-5 py-3">
 						<strong>SAIR DE TODOS OS DISPOSITIVOS</strong>
 					</a>
 				</div>

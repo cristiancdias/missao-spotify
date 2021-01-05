@@ -1,7 +1,8 @@
+@import "./blocks/botoes";
+@import "./blocks/editar-perfil";
 @import "./blocks/navegacao-superior";
 @import "./blocks/navegacao-lateral";
 @import "./blocks/visao-geral";
-@import "./blocks/editar-perfil";
 
 @import "./divs/rodape";
 @import "./divs/heading";
@@ -27,43 +28,7 @@ body{
   }
 }
 
-.btn-primary, .btn-inverter, .btn-banner, .btn-submit{
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: $forte-inverse-cor;
-  background-color: #cb1582;
-  border: none;
-  font-weight: 600;
-  &:hover{
-    background-color: $forte-inverse-fundo;
-    color: #000;
-  }
-  &.btn-inverter{
-    background-color: #a5ffef;
-    color: #cb1582;
-    &:hover{
-    background-color: $forte-inverse-fundo;
-    color: #cb1582;
-    } 
-  }
-  &.btn-banner{
-    background-color: $forte-cor;
-    color: #2d46b9;
-    &:hover{
-      background-color: $forte-inverse-fundo;
-    }
-  }
-  &.btn-submit{
-    background-color: $forte-cor;
-    color: $forte-inverse-cor;
-    border: 1px solid $forte-cor;
-    &:hover{
-      background-color: $forte-inverse-fundo;
-      color: #000;
-      border: 1px solid #000;
-    }
-  }
-}
+
 
 
 
