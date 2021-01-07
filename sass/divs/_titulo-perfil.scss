@@ -1,0 +1,14 @@
+@import "../vars/colors.scss";
+
+.titulo-perfil{
+  background-color: $forte-inverse-fundo;
+  h2 {
+    font-size: 2.6rem;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 50px;
+    margin-top: 30px;
+  }
+}
