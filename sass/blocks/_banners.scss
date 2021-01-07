@@ -1,0 +1,21 @@
+@import "../vars/colors.scss";
+
+.banner-bloco{
+  height: 230px;
+  display: flex;
+  align-items: center;
+  background: $gradient-banner;
+  color: $forte-inverse-cor;
+}
+.banner-bloco-paragrafo{
+  height: 150px;    
+  border: 1px solid $fraca-cor-third;
+  p{
+    border-bottom: 1px solid $fraca-cor-third;
+    height: 50px;
+  }
+}
+.banner-aviso{
+  border: 1px solid $fraca-cor-fourth;
+  background-color: $fraca-cor-fifth;
+}
