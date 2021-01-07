@@ -32,7 +32,7 @@
 					include __DIR__ . "/../layouts/navegacao-lateral.php";
 				?>
 			</div>
-			<div class="col-md-9 visao-geral py-5 px-5 titulo-perfil"> <!--Visão Geral-->
+			<div class="col-md-9 py-5 px-5 titulo-perfil"> <!--Visão Geral-->
 				<h2 class="fw-bolder">Visão geral da conta</h2>
 				<div>
 					<h3>Perfil</h3>
@@ -64,12 +64,12 @@
 				</div>
 				<div>
 					<h3>Seu plano</h3>
-					<h2 class="banner-roxo fw-bolder">
-						<strong>Spotify Free</strong>
+					<h2 class="banner-bloco fw-bolder">
+						<strong class="pl-4">Spotify Free</strong>
 					</h2>
 							
-					<div class="bloco-free">
-						<p>Ouça música apenas em ordem aleatória e com anúncios.</p>
+					<div class="banner-bloco-paragrafo pl-4 mb-4">
+						<p class="pt-3">Ouça música apenas em ordem aleatória e com anúncios.</p>
 						<h3>Free</h3>
 					</div>
 
@@ -84,7 +84,7 @@
 						no celular, no desktop ou em qualquer outro dispositivo.
 					</p>
 
-					<p class="aviso">
+					<p class="banner-aviso p-4">
 						Aviso: não será feito logout de dispositivos parceiros, 
 						como aparelhos da Sonos ou PlayStation. Para saber mais sobre 
 						como sair do Spotify (ou desvinculá-lo) em um dispositivo p
