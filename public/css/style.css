@@ -8,6 +8,28 @@
   color: #000;
 }
 
+.banner-bloco {
+  height: 230px;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0) linear-gradient(-180deg, #b62bbe 0%, #9622b9 100%) repeat scroll 0% 0%;
+  color: #fff;
+}
+
+.banner-bloco-paragrafo {
+  height: 150px;
+  border: 1px solid #eee;
+}
+.banner-bloco-paragrafo p {
+  border-bottom: 1px solid #eee;
+  height: 50px;
+}
+
+.banner-aviso {
+  border: 1px solid #d9dadc;
+  background-color: #f8f8f8;
+}
+
 .btn-destaque, .btn-submit, .btn-banner, .btn-inverter, .btn-primary {
   border: none;
   font-weight: 600;
@@ -93,39 +115,41 @@
   padding: 10px;
 }
 
-.visao-geral h1 {
-  font-weight: 1000;
-  height: 80px;
+.heading, .inverter, .banner {
+  background-color: #a5ffef;
+  color: #cb1582;
 }
-.visao-geral h3 {
+.heading h1, .inverter h1, .banner h1 {
   font-weight: 600;
-  font-size: 1.5rem;
-  height: 50px;
-  margin-top: 30px;
-}
-.visao-geral .banner-roxo {
-  height: 230px;
-  padding-left: 20px;
-  display: flex;
-  align-items: center;
-  background: rgba(0, 0, 0, 0) linear-gradient(-180deg, #b62bbe 0%, #9622b9 100%) repeat scroll 0% 0%;
-  color: #fff;
-}
-.visao-geral .bloco-free {
+  font-size: 3.7rem;
   height: 150px;
-  border: 1px solid #eee;
-  padding-left: 20px;
-  margin-bottom: 30px;
 }
-.visao-geral .bloco-free p {
-  border-bottom: 1px solid #eee;
+.heading h4, .inverter h4, .banner h4 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.heading h6, .inverter h6, .banner h6 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.heading p, .inverter p, .banner p {
+  margin-top: 30px;
+  font-size: 0.8rem;
   height: 50px;
-  padding-top: 20px;
 }
-.visao-geral .aviso {
-  border: 1px solid #d9dadc;
-  background-color: #f8f8f8;
-  padding: 20px;
+.heading.inverter, .inverter.inverter, .banner.inverter {
+  background-color: #cb1582;
+  color: #a5ffef;
+}
+.heading.inverter h2, .inverter.inverter h2, .banner.inverter h2 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.heading.banner, .inverter.banner, .banner.banner {
+  background: url("../../imagens/fundo.png") no-repeat;
+  height: 599px;
+  color: #1ed760;
 }
 
 .rodape {
@@ -173,41 +197,17 @@
   left: 50px;
 }
 
-.heading, .inverter, .banner {
-  background-color: #a5ffef;
-  color: #cb1582;
+.titulo-perfil {
+  background-color: #fff;
 }
-.heading h1, .inverter h1, .banner h1 {
+.titulo-perfil h2 {
+  font-size: 2.6rem;
+}
+.titulo-perfil h3 {
   font-weight: 600;
-  font-size: 3.7rem;
-  height: 150px;
-}
-.heading h4, .inverter h4, .banner h4 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-.heading h6, .inverter h6, .banner h6 {
-  font-weight: 500;
-  letter-spacing: 1px;
-}
-.heading p, .inverter p, .banner p {
-  margin-top: 30px;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   height: 50px;
-}
-.heading.inverter, .inverter.inverter, .banner.inverter {
-  background-color: #cb1582;
-  color: #a5ffef;
-}
-.heading.inverter h2, .inverter.inverter h2, .banner.inverter h2 {
-  font-size: 4rem;
-  font-weight: 800;
-}
-.heading.banner, .inverter.banner, .banner.banner {
-  background: url("../../imagens/fundo.png") no-repeat;
-  height: 599px;
-  color: #1ed760;
+  margin-top: 30px;
 }
 
 body {
@@ -216,13 +216,6 @@ body {
 
 .fundo {
   background-image: linear-gradient(#212c39, #121e3d 50%, #000);
-}
-
-.titulo-perfil {
-  background-color: #fff;
-}
-.titulo-perfil h2 {
-  font-size: 2.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
