@@ -1,11 +1,12 @@
 @import "./blocks/anchor";
+@import "./blocks/banners";
 @import "./blocks/botoes";
 @import "./blocks/navegacao-superior";
 @import "./blocks/navegacao-lateral";
-@import "./blocks/visao-geral";
 
-@import "./divs/rodape";
 @import "./divs/heading";
+@import "./divs/rodape";
+@import "./divs/titulo-perfil";
 
 @import "./vars/colors";
 
@@ -18,12 +19,6 @@ body{
   background-image: $gradient-fundo;
 }
 
-.titulo-perfil{
-  background-color: $forte-inverse-fundo;
-  h2 {
-    font-size: 2.6rem;
-  }
-}
 
 
 
