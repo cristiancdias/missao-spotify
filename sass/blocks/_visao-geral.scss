@@ -22,18 +22,18 @@
   }
   .bloco-free{
     height: 150px;    
-    border: 1px solid #eeeeee;
+    border: 1px solid $fraca-cor-third;
     padding-left: 20px;
     margin-bottom: 30px;
     p{
-      border-bottom: 1px solid #eeeeee;
+      border-bottom: 1px solid $fraca-cor-third;
       height: 50px;
       padding-top: 20px;
     }
   }
   .aviso{
-    border: 1px solid #d9dadc;
-    background-color: #f8f8f8;
+    border: 1px solid $fraca-cor-fourth;
+    background-color: $fraca-cor-fifth;
     padding: 20px;
   }
 }

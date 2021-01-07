@@ -1,14 +1,14 @@
 @import "../vars/colors.scss";
 
 .rodape{
-  background-color: #000; 
+  background-color: $forte-fundo-fourth; 
   height: 400px;
   color: $forte-inverse-fundo;
   h6{
     font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #879496;
+    color: $fraca-cor-sec;
   }
   ul{
     list-style-type: none;
@@ -16,7 +16,7 @@
     padding: 0;
     a{
       text-decoration: none;
-      color: #fff;
+      color: $forte-inverse-cor;
       margin-top: 30px;
       font-size: 0.8rem;
       &:hover{
@@ -32,7 +32,7 @@
     font-size: 0.8rem;
     a{
       text-decoration: none;
-      color: #879496;
+      color: $fraca-cor-sec;
       padding-right: 20px;
       &:hover{ 
         color: $forte-cor;

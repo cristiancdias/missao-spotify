@@ -1,8 +1,8 @@
 @import "../vars/colors.scss";
 
 .heading, .inverter, .banner{
-  background-color: #a5ffef;
-  color: #cb1582;
+  background-color: $forte-fundo-third;
+  color: $forte-cor-sec;
   h1{
     font-weight: 600;
     font-size: 3.7rem;
@@ -24,8 +24,8 @@
    
   }
   &.inverter{
-    background-color: #cb1582;
-    color: #a5ffef;
+    background-color: $forte-fundo-sec;
+    color: $forte-cor-third;
     h2{
       font-size: 4rem;
       font-weight: 800;

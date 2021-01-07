@@ -12,11 +12,11 @@
     padding: 0;
     li{
       padding: 10px;
-      border-bottom: 1px solid #161616;
-      border-top: 1px solid #272727; 
+      border-bottom: 1px solid $forte-borda;
+      border-top: 1px solid $fraca-borda;
       a{
         text-decoration: none;
-        color: #919482;
+        color: $fraca-cor-sixth;
         padding: 10px;
       }
     }

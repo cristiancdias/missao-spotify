@@ -4,10 +4,10 @@
   a{
     letter-spacing: 2px;
     font-size: 0.8rem;
-    color: #7f7f7f;
+    color: $fraca-cor;
     font-weight: 600;
     &:hover{
-      color: #000;
+      color: $forte-cor-fourth;
     }
   }
 }

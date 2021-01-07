@@ -1,8 +1,7 @@
 @import "../vars/colors.scss";
 
 .navegacao-superior{
-  background-color: #000;
-  align-items: center;
+  background-color: $forte-fundo-fourth;
   color: $forte-inverse-cor;
   .nav-link {
     color: $forte-inverse-cor;

@@ -7,29 +7,29 @@
   letter-spacing: 2px;
   &:hover{
     background-color: $forte-inverse-fundo;
-    color: #000;
+    color: $forte-cor-fourth;
   }
 }
 
 .btn-primary{
   @extend %btn-config;
   color: $forte-inverse-cor;
-  background-color: #cb1582;
+  background-color: $forte-fundo-sec;
 }
 
 .btn-inverter{
   @extend %btn-config;
-  background-color: #a5ffef;
-  color: #cb1582;
+  background-color: $forte-fundo-third;
+  color: $forte-cor-sec;
   &:hover{
-  color: #cb1582;
+  color: $forte-cor-sec;
   } 
 }
 
 .btn-banner{
   @extend %btn-config;
   background-color: $forte-cor;
-  color: #2d46b9;
+  color: $forte-cor-fifth;
 }
 
 .btn-submit{
@@ -38,16 +38,16 @@
   color: $forte-inverse-cor;
   border: 1px solid $forte-cor;
   &:hover{
-    border: 1px solid #000;
+    border: 1px solid $forte-cor-fourth;
   }
 }
 
 .btn-destaque{
   @extend %btn-config;
   background-color: $forte-inverse-fundo;
-  color: #757575;
-  border: 2px solid #757575;
+  color: $fraca-cor;
+  border: 2px solid $fraca-cor;
   &:hover{
-    border: 2px solid #000;
+    border: 2px solid $forte-cor-fourth;
   }  
 }

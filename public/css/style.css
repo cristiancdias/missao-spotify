@@ -1,7 +1,7 @@
 .anchor a {
   letter-spacing: 2px;
   font-size: 0.8rem;
-  color: #7f7f7f;
+  color: #757575;
   font-weight: 600;
 }
 .anchor a:hover {
@@ -57,7 +57,6 @@
 
 .navegacao-superior {
   background-color: #000;
-  align-items: center;
   color: #fff;
 }
 .navegacao-superior .nav-link {
@@ -114,12 +113,12 @@
 }
 .visao-geral .bloco-free {
   height: 150px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
   padding-left: 20px;
   margin-bottom: 30px;
 }
 .visao-geral .bloco-free p {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   height: 50px;
   padding-top: 20px;
 }

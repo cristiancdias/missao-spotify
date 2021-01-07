@@ -1,8 +1,25 @@
 $forte-cor: #1ed760;
+$forte-cor-sec: #cb1582;
+$forte-cor-third: #a5ffef;
+$forte-cor-fourth: #000;
+$forte-cor-fifth: #2d46b9; 
 $forte-fundo: #1b1b1b;
+$forte-fundo-sec: $forte-cor-sec;
+$forte-fundo-third: $forte-cor-third;
+$forte-fundo-fourth: $forte-cor-fourth;
 
 $forte-inverse-fundo: #fff;
 $forte-inverse-cor: $forte-inverse-fundo;
+
+$fraca-cor: #757575;
+$fraca-cor-sec: #879496;
+$fraca-cor-third: #eee;
+$fraca-cor-fourth: #d9dadc; 
+$fraca-cor-fifth: #f8f8f8;
+$fraca-cor-sixth: #919482;
+
+$forte-borda: #161616;
+$fraca-borda: #272727;
 
 $gradient-fundo: linear-gradient(#212c39, #121e3d 50% , #000);
 $gradient-banner: rgba(0, 0, 0, 0) linear-gradient(-180deg, rgb(182, 43, 190) 0%, rgb(150, 34, 185) 100%) repeat scroll 0% 0%;
