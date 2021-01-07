@@ -8,50 +8,50 @@
   color: #000;
 }
 
-.btn-primary, .btn-inverter, .btn-banner, .btn-submit, .btn-destaque {
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: #fff;
-  background-color: #cb1582;
+.btn-destaque, .btn-submit, .btn-banner, .btn-inverter, .btn-primary {
   border: none;
   font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
 }
-.btn-primary:hover, .btn-inverter:hover, .btn-banner:hover, .btn-submit:hover, .btn-destaque:hover {
+.btn-destaque:hover, .btn-submit:hover, .btn-banner:hover, .btn-inverter:hover, .btn-primary:hover {
   background-color: #fff;
   color: #000;
 }
-.btn-primary.btn-inverter, .btn-inverter.btn-inverter, .btn-banner.btn-inverter, .btn-submit.btn-inverter, .btn-destaque.btn-inverter {
+
+.btn-primary {
+  color: #fff;
+  background-color: #cb1582;
+}
+
+.btn-inverter {
   background-color: #a5ffef;
   color: #cb1582;
 }
-.btn-primary.btn-inverter:hover, .btn-inverter.btn-inverter:hover, .btn-banner.btn-inverter:hover, .btn-submit.btn-inverter:hover, .btn-destaque.btn-inverter:hover {
-  background-color: #fff;
+.btn-inverter:hover {
   color: #cb1582;
 }
-.btn-primary.btn-banner, .btn-inverter.btn-banner, .btn-banner.btn-banner, .btn-submit.btn-banner, .btn-destaque.btn-banner {
+
+.btn-banner {
   background-color: #1ed760;
   color: #2d46b9;
 }
-.btn-primary.btn-banner:hover, .btn-inverter.btn-banner:hover, .btn-banner.btn-banner:hover, .btn-submit.btn-banner:hover, .btn-destaque.btn-banner:hover {
-  background-color: #fff;
-}
-.btn-primary.btn-submit, .btn-inverter.btn-submit, .btn-banner.btn-submit, .btn-submit.btn-submit, .btn-destaque.btn-submit {
+
+.btn-submit {
   background-color: #1ed760;
   color: #fff;
   border: 1px solid #1ed760;
 }
-.btn-primary.btn-submit:hover, .btn-inverter.btn-submit:hover, .btn-banner.btn-submit:hover, .btn-submit.btn-submit:hover, .btn-destaque.btn-submit:hover {
-  background-color: #fff;
-  color: #000;
+.btn-submit:hover {
   border: 1px solid #000;
 }
-.btn-primary.btn-destaque, .btn-inverter.btn-destaque, .btn-banner.btn-destaque, .btn-submit.btn-destaque, .btn-destaque.btn-destaque {
+
+.btn-destaque {
   background-color: #fff;
   color: #757575;
   border: 2px solid #757575;
 }
-.btn-primary.btn-destaque:hover, .btn-inverter.btn-destaque:hover, .btn-banner.btn-destaque:hover, .btn-submit.btn-destaque:hover, .btn-destaque.btn-destaque:hover {
-  color: #000;
+.btn-destaque:hover {
   border: 2px solid #000;
 }
 

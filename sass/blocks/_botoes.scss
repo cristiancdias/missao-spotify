@@ -1,48 +1,53 @@
 @import "../vars/colors.scss";
 
-.btn-primary, .btn-inverter, .btn-banner, .btn-submit, .btn-destaque{
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: $forte-inverse-cor;
-  background-color: #cb1582;
+%btn-config{
   border: none;
   font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
   &:hover{
     background-color: $forte-inverse-fundo;
     color: #000;
   }
-  &.btn-inverter{
-    background-color: #a5ffef;
-    color: #cb1582;
-    &:hover{
-    background-color: $forte-inverse-fundo;
-    color: #cb1582;
-    } 
+}
+
+.btn-primary{
+  @extend %btn-config;
+  color: $forte-inverse-cor;
+  background-color: #cb1582;
+}
+
+.btn-inverter{
+  @extend %btn-config;
+  background-color: #a5ffef;
+  color: #cb1582;
+  &:hover{
+  color: #cb1582;
+  } 
+}
+
+.btn-banner{
+  @extend %btn-config;
+  background-color: $forte-cor;
+  color: #2d46b9;
+}
+
+.btn-submit{
+  @extend %btn-config;
+  background-color: $forte-cor;
+  color: $forte-inverse-cor;
+  border: 1px solid $forte-cor;
+  &:hover{
+    border: 1px solid #000;
   }
-  &.btn-banner{
-    background-color: $forte-cor;
-    color: #2d46b9;
-    &:hover{
-      background-color: $forte-inverse-fundo;
-    }
-  }
-  &.btn-submit{
-    background-color: $forte-cor;
-    color: $forte-inverse-cor;
-    border: 1px solid $forte-cor;
-    &:hover{
-      background-color: $forte-inverse-fundo;
-      color: #000;
-      border: 1px solid #000;
-    }
-  }
-  &.btn-destaque{
-    background-color: $forte-inverse-fundo;
-    color: #757575;
-    border: 2px solid #757575;
-    &:hover{
-      color: #000;
-      border: 2px solid #000;
-    }  
-  }
+}
+
+.btn-destaque{
+  @extend %btn-config;
+  background-color: $forte-inverse-fundo;
+  color: #757575;
+  border: 2px solid #757575;
+  &:hover{
+    border: 2px solid #000;
+  }  
 }
